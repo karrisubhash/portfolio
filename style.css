@@ -1,0 +1,113 @@
+header{
+    background-color:#2196F3;
+    color:white;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+
+} .top{
+    height: 40px;
+    width:50px;
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+}
+main{
+    padding: 20px;
+}
+header h1{
+    font-size: 3rem;
+
+    color: white;
+   
+}
+body{
+    font-family:monospace;
+   font-size: 15px; 
+   background-color: #f0f8f0;
+}
+h1{
+    color: #2196F3;
+    font-size: 3rem;
+}
+.button{
+    height:40px;
+    width:100px;
+    border:none;
+    border-radius: 10px;
+    margin:15px;
+}
+
+        
+
+button:hover{
+    background-color:darkblue;
+    cursor: pointer;
+    color: white;
+}
+img{
+    height: 300px;
+border: 2px solid gray;
+
+}
+section{
+    height: 100vh;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;;
+
+}
+form{
+    margin:5px 0;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+    height:40px;
+    width:100px;
+    border:none;
+    border-radius: 10px;
+background-color:deepskyblue
+}
+
+.submit:hover{
+
+        color:rgb(5, 89, 117)
+    }
+        cursor: pointer;
+        background-color: white;
+    
+input{
+    border-radius: 5px;
+    border:1px solid lightgrey;
+    height: 25px;
+}
+footer{
+    height:100px;
+    background-color: black;
+    color:lightgray;
+}
+.top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height:40px;
+    width:200;
+    border:none;
+    border-radius: 10px;
+    color: white
+background-color: black;
+} 
+
