@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Layout and styles adapted from the open-source "Portfolio-Website" template
+  by Jigar Sable (MIT License). Content © Subhash Karri.
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Subhash Karri, portfolio, AI engineer, backend developer, Django, computer vision, YOLO, RAG, ANITS, Visakhapatnam" />
+    <meta name="description" content="Subhash Karri — Backend, Full Stack & AI/ML developer. Built the AI drone inspection system running at APTRANSCO." />
+    <meta property="og:title" content="Portfolio | Subhash Karri">
+    <meta property="og:description" content="Backend, Full Stack & AI/ML developer — Django, Next.js, computer vision, RAG.">
+    <meta property="og:image" content="./assets/images/profile.jpg">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
+    <link id="favicon" rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+    <title>Portfolio | Subhash Karri</title>
+</head>
+
+<body>
+
+    <!-- navbar starts -->
+    <header>
+        <a href="#home" class="logo"><i class="fas fa-microchip"></i> Subhash Karri</a>
+
+        <div id="menu" class="fas fa-bars" aria-label="Open menu" role="button" tabindex="0"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- navbar ends -->
+
+    <!-- hero section starts -->
+    <section class="home" id="home">
+        <div id="particles-js"></div>
+
+        <div class="content">
+            <h2>Hi There,<br/> I'm <span>Subhash Karri</span></h2>
+            <p>I am into <span class="typing-text"></span></p>
+            <a href="#about" class="btn"><span>About Me</span>
+                <i class="fas fa-arrow-circle-down"></i></a>
+            <div class="socials">
+                <ul class="social-icons">
+                    <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/subhash-karri-9250a1324/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="github" aria-label="GitHub" href="https://github.com/karrisubhash" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
+                    <li><a class="dev" aria-label="LeetCode" href="https://leetcode.com/u/Subhash_karri/" target="_blank" rel="noopener"><i class="fas fa-code"></i></a></li>
+                    <li><a class="instagram" aria-label="Email" href="mailto:karrisubhash643@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="image">
+            <img draggable="false" class="tilt" src="./assets/images/profile.jpg" alt="Subhash Karri">
+        </div>
+    </section>
+    <!-- hero section ends -->
+
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+
+        <div class="row">
+            <div class="image">
+                <img draggable="false" class="tilt" src="./assets/images/profile.jpg" alt="Subhash Karri">
+            </div>
+            <div class="content">
+                <h3>I'm Subhash</h3>
+                <span class="tag">Backend, Full Stack &amp; AI/ML Developer</span>
+
+                <p>I'm a backend and full stack developer who also builds AI systems — from Django and FastAPI backends to Next.js and React Native front ends to computer-vision models — and I ship them to production. During my internship at APTRANSCO (Andhra Pradesh Transmission Corporation), I engineered an end-to-end AI drone inspection system with Django, PostgreSQL and custom YOLO models that reached 92% mAP — it now runs on APTRANSCO's production servers.</p>
+                <p>I'm a B.Tech student at ANITS, Visakhapatnam, and I've built 6 projects in total — including a RAG document chatbot, an AI job-application assistant, a Flutter field-inspection app for APTRANSCO and a real-time bus tracking platform. I'm looking for Python/Django backend and AI/ML roles and internships — remote or in India.</p>
+
+                <div class="box-container">
+                    <div class="box">
+                        <p><span> email : </span> karrisubhash643@gmail.com</p>
+                        <p><span> place : </span> Visakhapatnam, Andhra Pradesh, India</p>
+                    </div>
+                </div>
+
+                <div class="resumebtn">
+                    <a href="./assets/Subhash_Karri_Resume.pdf" target="_blank" class="btn"><span>Resume</span>
+                        <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- skills section starts -->
+    <section class="skills" id="skills">
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills &amp; <span>Abilities</span></h2>
+        <div class="container">
+            <div class="row" id="skillsContainer"></div>
+        </div>
+    </section>
+    <!-- skills section ends -->
+
+    <!-- education section starts -->
+    <section class="education" id="education">
+        <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+        <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image edu-icon edu-1"><i class="fas fa-university"></i></div>
+                <div class="content">
+                    <h3>B.Tech in Mechanical Engineering</h3>
+                    <p>Anil Neerukonda Institute of Technology and Sciences (ANITS), Visakhapatnam</p>
+                    <h4>2024-2028 | Pursuing | CGPA 7.65</h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image edu-icon edu-2"><i class="fas fa-book-open"></i></div>
+                <div class="content">
+                    <h3>Intermediate (MPC)</h3>
+                    <p>Sri Chaitanya Junior College, Tuni</p>
+                    <h4>2022-2024 | Completed | 94.5%</h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image edu-icon edu-3"><i class="fas fa-school"></i></div>
+                <div class="content">
+                    <h3>SSC</h3>
+                    <p>ZPHS, Mangavaram</p>
+                    <h4>2021-2022 | Completed | 88%</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- education section ends -->
+
+    <!-- work project section starts -->
+    <section class="work" id="work">
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+        <div class="box-container">
+
+            <div class="box tilt">
+                <img draggable="false" src="./assets/images/projects/aptransco.jpg" alt="APTRANSCO AI Drone Inspection System dashboard" />
+                <div class="content">
+                    <div class="tag">
+                        <h3>APTRANSCO AI Drone Inspection</h3>
+                    </div>
+                    <div class="desc">
+                        <p>End-to-end drone inspection platform for transmission towers: custom YOLO models (92% mAP), SAM segmentation, thermal analysis, live dashboard, PDF reports and auto-routed maintenance tickets. In production.</p>
+                        <div class="btns">
+                            <a href="https://drone.aptransco.in/" class="btn" target="_blank" rel="noopener"><i class="fas fa-eye"></i> View</a>
+                            <a href="https://github.com/karrisubhash/Aptransco-Drone" class="btn" target="_blank" rel="noopener">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box tilt">
+                <div class="cover cover-app" role="img" aria-label="APTRANSCO field inspection mobile app">
+                    <img class="phone" src="./assets/images/projects/aptransco-app.jpg" alt="" draggable="false">
+                    <h4>APTRANSCO Inspection App</h4>
+                    <p>Offline-first app for line engineers</p>
+                    <div class="chips"><span>Flutter</span><span>Dart</span><span>Django API</span></div>
+                </div>
+                <div class="content">
+                    <div class="tag">
+                        <h3>APTRANSCO Mobile Inspection App</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Flutter field app for transmission-line inspections: offline-first data capture with a sync queue and offline sign-in, tower and line maps with GPS, photo evidence, defect criticality scoring, and Excel/PDF report export.</p>
+                        <div class="btns">
+                            <a href="https://github.com/karrisubhash/Aptransco_Mobile_Application" class="btn" target="_blank" rel="noopener">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box tilt">
+                <div class="cover cover-rag" role="img" aria-label="AI Document Intelligence Chatbot">
+                    <i class="fas fa-file-alt cover-icon" aria-hidden="true"></i>
+                    <h4>AI Document Intelligence</h4>
+                    <p>Ask questions. Get cited answers.</p>
+                    <div class="chips"><span>RAG</span><span>FAISS</span><span>Python</span></div>
+                </div>
+                <div class="content">
+                    <div class="tag">
+                        <h3>AI Document Intelligence Chatbot</h3>
+                    </div>
+                    <div class="desc">
+                        <p>RAG assistant that answers questions about uploaded PDFs using sentence-transformer embeddings and FAISS search, with file- and page-level citations. Rejects questions the documents can't support.</p>
+                        <div class="btns">
+                            <a href="https://github.com/karrisubhash/ai-document-intelligence" class="btn" target="_blank" rel="noopener">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box tilt">
+                <div class="cover cover-easy" role="img" aria-label="EasyApply AI job application assistant">
+                    <i class="fas fa-clipboard-check cover-icon" aria-hidden="true"></i>
+                    <h4>EasyApply</h4>
+                    <p>AI job-application assistant</p>
+                    <div class="chips"><span>FastAPI</span><span>Next.js</span><span>OpenAI</span></div>
+                </div>
+                <div class="content">
+                    <div class="tag">
+                        <h3>EasyApply</h3>
+                    </div>
+                    <div class="desc">
+                        <p>AI job-application assistant (web app + Chrome extension): resume analysis, explainable job matching, resume tailoring and confidence-based form autofill. FastAPI, Next.js, OpenAI API.</p>
+                        <div class="btns">
+                            <a href="https://github.com/VishvakarmaLabs/EasyApply" class="btn" target="_blank" rel="noopener">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box tilt">
+                <div class="cover cover-bus" role="img" aria-label="Real-time bus tracking platform">
+                    <i class="fas fa-bus cover-icon" aria-hidden="true"></i>
+                    <h4>Real-Time Bus Tracking</h4>
+                    <p>Live GPS over WebSockets</p>
+                    <div class="chips"><span>Django</span><span>Channels</span><span>React Native</span></div>
+                </div>
+                <div class="content">
+                    <div class="tag">
+                        <h3>Real-Time Bus Tracking Platform</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Multi-role platform for admins, drivers and students: JWT auth, sub-200ms GPS updates over Django Channels WebSockets, 100+ concurrent users, React Native driver app.</p>
+                        <div class="btns">
+                            <a href="https://youtu.be/i2Xq8YOuVXY" class="btn" target="_blank" rel="noopener"><i class="fas fa-eye"></i> Demo</a>
+                            <a href="https://github.com/karrisubhash/bus_tracker" class="btn" target="_blank" rel="noopener">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box tilt">
+                <div class="cover cover-lab" role="img" aria-label="Manufacturing Process Lab portal">
+                    <i class="fas fa-flask cover-icon" aria-hidden="true"></i>
+                    <h4>Manufacturing Process Lab</h4>
+                    <p>Lab experiments, calculated and emailed</p>
+                    <div class="chips"><span>Django</span><span>Matplotlib</span><span>NumPy</span></div>
+                </div>
+                <div class="content">
+                    <div class="tag">
+                        <h3>Manufacturing Process Lab Portal</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Django web app for foundry and welding lab experiments (sieve analysis, moisture and clay content, green compression, weld joints): enter readings, get step-by-step calculations, auto-plotted graphs and results emailed.</p>
+                        <div class="btns">
+                            <a href="https://github.com/karrisubhash/Manufacturing-Process-Lab" class="btn" target="_blank" rel="noopener">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="viewall">
+            <a href="https://github.com/karrisubhash" class="btn" target="_blank" rel="noopener"><span>View All</span>
+                <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+    <!-- work project section ends -->
+
+    <!-- experience section starts -->
+    <section class="experience" id="experience">
+        <h2 class="heading"><i class="fas fa-briefcase"></i> Experience &amp; <span>Achievements</span></h2>
+
+        <div class="timeline">
+
+            <div class="container right">
+                <div class="content">
+                    <div class="tag">
+                        <h2>APTRANSCO IT Wing</h2>
+                    </div>
+                    <div class="desc">
+                        <h3>AI/ML Developer Intern (Onsite)</h3>
+                        <p>May 2026 - July 2026</p>
+                        <p>Built and deployed an AI drone inspection system (Django, PostgreSQL, YOLO, OpenCV). Cut end-to-end processing latency by 40% with modular DRF inference pipelines. Team of 3 engineers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container left">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Model Performance</h2>
+                    </div>
+                    <div class="desc">
+                        <h3>92% mAP Detection Model</h3>
+                        <p>Trained custom YOLO object-detection models across multiple transmission-line defect categories, now running in production.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Problem Solving</h2>
+                    </div>
+                    <div class="desc">
+                        <h3>170+ LeetCode Problems</h3>
+                        <p>Arrays, sliding window, two pointers and dynamic programming.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container left">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Shipping</h2>
+                    </div>
+                    <div class="desc">
+                        <h3>6 Projects Built</h3>
+                        <p>From a production AI system to a RAG chatbot, an AI job assistant, a Flutter field-inspection app, a real-time tracking platform and a lab portal.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- experience section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+        <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+        <div class="container">
+            <div class="content">
+                <div class="image-box">
+                    <img draggable="false" src="./assets/images/contact.png" alt="">
+                </div>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Name" required>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="field">
+                            <input type="email" name="email" placeholder="Email" required>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="phone" placeholder="Phone">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="message">
+                            <textarea placeholder="Message" name="message" required></textarea>
+                            <i class="fas fa-comment-dots"></i>
+                        </div>
+                    </div>
+                    <div class="button-area">
+                        <button type="submit">Submit <i class="fa fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Subhash's Portfolio</h3>
+                <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀</p>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+                <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+                <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+                <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+                <a href="#work"><i class="fas fa-chevron-circle-right"></i> projects</a>
+                <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-phone"></i>+91 6301998030</p>
+                <p class="lower"> <i class="fas fa-envelope"></i>karrisubhash643@gmail.com</p>
+                <p> <i class="fas fa-map-marked-alt"></i>Visakhapatnam, India</p>
+                <div class="share">
+                    <a href="https://www.linkedin.com/in/subhash-karri-9250a1324/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank" rel="noopener"></a>
+                    <a href="https://github.com/karrisubhash" class="fab fa-github" aria-label="GitHub" target="_blank" rel="noopener"></a>
+                    <a href="mailto:karrisubhash643@gmail.com" class="fas fa-envelope" aria-label="Mail"></a>
+                    <a href="https://leetcode.com/u/Subhash_karri/" class="fas fa-code" aria-label="LeetCode" target="_blank" rel="noopener"></a>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by Subhash</h1>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- scroll top btn -->
+    <a href="#home" aria-label="Scroll to top" class="fas fa-angle-up" id="scroll-top"></a>
+
+    <!-- ==== JS CDNs ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+    <script src="./assets/js/particles.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
